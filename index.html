@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelSmart - Planificador inteligente de viajes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-5 flex justify-between items-center sticky top-0 z-50 shadow-lg">
+    <h1 class="text-2xl font-bold">🌍 TravelSmart</h1>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#funcionalidad" class="hover:text-yellow-400 transition">Cómo funciona</a></li>
+        <li><a href="#beneficios" class="hover:text-yellow-400 transition">Beneficios</a></li>
+        <li><a href="#demo" class="hover:text-yellow-400 transition">Demo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative text-center py-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 text-white">
+      <h2 class="text-5xl font-bold mb-4 drop-shadow-lg">Tu viaje, optimizado al máximo</h2>
+      <p class="mb-6 text-lg max-w-2xl mx-auto">Un planificador inteligente que organiza tu recorrido según tu tiempo y presupuesto.</p>
+      <a href="#demo" class="bg-yellow-400 text-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-300 transition">Probar ahora</a>
+    </div>
+  </section>
+
+  <!-- Funcionalidad -->
+  <section id="funcionalidad" class="py-16 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">¿Cómo funciona?</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition">
+        <span class="text-4xl">📝</span>
+        <h4 class="text-xl font-semibold mb-2">1. Ingresa tus datos</h4>
+        <p>Tiempo disponible, presupuesto y preferencias de viaje.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition">
+        <span class="text-4xl">🗺️</span>
+        <h4 class="text-xl font-semibold mb-2">2. Recibe tu plan</h4>
+        <p>Rutas optimizadas con actividades, restaurantes y transporte.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition">
+        <span class="text-4xl">🎉</span>
+        <h4 class="text-xl font-semibold mb-2">3. Disfruta tu viaje</h4>
+        <p>Ahorra dinero y tiempo mientras vives experiencias únicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios" class="bg-gray-100 py-16 px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Problemas que resolvemos</h3>
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <h4 class="font-semibold text-lg">✅ Planificación personalizada</h4>
+        <p>Olvídate de tours rígidos: tu viaje se adapta a ti.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <h4 class="font-semibold text-lg">💰 Control de presupuesto</h4>
+        <p>Elige cuánto gastar y la app se ajusta a tu bolsillo.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <h4 class="font-semibold text-lg">⏳ Ahorro de tiempo</h4>
+        <p>No pierdas horas decidiendo dónde ir: todo está planificado.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <h4 class="font-semibold text-lg">🌍 Experiencias locales</h4>
+        <p>Accede a opciones auténticas y económicas que otros no ofrecen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="py-16 bg-white px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Lo que dicen nuestros viajeros</h3>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-6 border rounded-lg shadow">
+        <p class="italic">“Gracias a TravelSmart aproveché al máximo mis 2 días en Iquitos sin gastar de más.”</p>
+        <h4 class="mt-4 font-semibold">– Ana, México</h4>
+      </div>
+      <div class="p-6 border rounded-lg shadow">
+        <p class="italic">“Me encantó que incluyera restaurantes locales que no aparecen en Google Maps.”</p>
+        <h4 class="mt-4 font-semibold">– Carlos, Perú</h4>
+      </div>
+      <div class="p-6 border rounded-lg shadow">
+        <p class="italic">“Ideal para mochileros: controlas el presupuesto y descubres joyas escondidas.”</p>
+        <h4 class="mt-4 font-semibold">– Lucía, España</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo -->
+  <section id="demo" class="py-16 max-w-4xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Prueba el prototipo</h3>
+    <p class="mb-8">Simula un recorrido ingresando tu tiempo y presupuesto:</p>
+    <form class="bg-white p-8 shadow-lg rounded-xl max-w-md mx-auto space-y-4">
+      <input type="number" placeholder="Horas disponibles" class="w-full border p-3 rounded-lg focus:ring-2 focus:ring-blue-500">
+      <input type="number" placeholder="Presupuesto (USD)" class="w-full border p-3 rounded-lg focus:ring-2 focus:ring-blue-500">
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg w-full hover:bg-blue-500 transition">Generar plan</button>
+    </form>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center py-16">
+    <h3 class="text-3xl font-bold mb-4">¿Listo para tu próxima aventura?</h3>
+    <p class="mb-6">Descarga la app y empieza a planear viajes inteligentes hoy mismo.</p>
+    <a href="#" class="bg-yellow-400 text-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-300 transition">Descargar App</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center p-6 mt-12">
+    <p>&copy; 2025 TravelSmart - Tu planificador inteligente de viajes</p>
+  </footer>
+
+</body>
+</html>
